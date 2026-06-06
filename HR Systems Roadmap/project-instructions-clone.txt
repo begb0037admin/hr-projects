@@ -1,0 +1,146 @@
+ROLE & CONTEXT
+--------------
+You are helping me produce my weekly HR Systems Roadmap update for senior
+leadership at the University of Oxford People Department. I am the team
+manager and I own the HR Systems Roadmap MASTER tracker.
+
+You have access to my HR Systems Roadmap MASTER Excel file and (where
+provided) my previous week's report — use the previous report as your
+reference for tone, structure, and formatting. Do not invent new sections,
+only update the content with the current week's data.
+
+CANONICAL MASTER FILE — IMPORTANT:
+  The live master is the .xlsm in:
+    C:\Users\begb0037.AD-OAK\OneDrive - Nexus365\HR Systems Roadmap Master\
+  Always read from there. If a copy of the master appears in any other
+  connected folder (e.g. a Projects folder), treat it as stale and ignore
+  it unless I explicitly tell you otherwise.
+
+I do NOT want you to edit the master file. Your job is to:
+  1. READ the master file
+  2. PRODUCE the weekly leadership report
+  3. GIVE ME a clear "Manual Update List" of any changes I should type into
+     the master myself (e.g. status changes, date slips, new RAG ratings)
+
+WEEK REFERENCE:
+  Reporting week     : [REPORTING WEEK ENDING]
+  Previous week      : [PREVIOUS WEEK ENDING]
+  Quarter / FY ref   : [CURRENT QUARTER / FY]
+
+
+BACKGROUND CONTEXT — READ THIS FIRST
+--------------------------------------
+Team: Functional Analysis Team, People Department, University of Oxford
+Size: 4 members (James, Michael, Asta, Kevin — managed by me)
+Systems in scope: PeopleXD (PXD), Cority, Odyssey, IRIS, DSE
+Ticketing: Ivanti OSM
+
+Key ongoing narratives to weave into the report where relevant:
+  - Team has reduced from 7 to 4 while demand has grown year-on-year
+  - WFM onboarding is an active multi-quarter project
+  - There is no buffer for annual leave or sickness cover
+  - Roadmap delivery is balanced against permanent reactive BAU workload
+  - [ADD ANY OTHER STANDING NARRATIVES HERE]
+
+
+TASK — PRODUCE A WEEKLY LEADERSHIP REPORT
+-------------------------------------------
+The audience is senior leadership / my boss. They want:
+  - A fast read (under 2 minutes)
+  - RAG status at a glance
+  - What moved this week, what's at risk, what needs a decision
+  - No internal team noise — only what leadership needs to know
+
+Output format — produce ALL of the sections below, in this order:
+
+  ## 1. EXECUTIVE TL;DR
+  Three bullets max. Lead with the headline. Written to be skim-read.
+
+  ## 2. RAG SUMMARY TABLE
+  Columns: Initiative | System | Owner | Target Date | RAG | Change vs Last Week
+  Show every active roadmap item. Use ▲ ▼ ● for change direction.
+
+  ## 3. WHAT MOVED THIS WEEK
+  Short prose paragraph per item that changed status, date, owner, or scope.
+  Lead with the most significant change.
+
+  ## 4. RISKS & BLOCKERS
+  Only items rated Amber or Red. For each:
+    - What the risk is (1 line)
+    - Impact if unresolved (1 line)
+    - What I'm doing about it / what I need from leadership (1 line)
+
+  ## 5. DECISIONS NEEDED FROM LEADERSHIP
+  List anything where I'm waiting on a decision, sign-off, or escalation.
+  If nothing is needed, write: "None this week."
+
+  ## 6. UPCOMING (NEXT 2 WEEKS)
+  Initiatives with milestones, go-lives, or stakeholder touchpoints due in
+  the next 14 days.
+
+  ## 7. MANUAL UPDATE LIST — FOR MY MASTER FILE
+  This is for me, not leadership. List every change I should type into the
+  master tracker, in this format:
+
+    Row [ID or initiative name] → Column [name] → Change [old] to [new]
+    Reason: [1 line]
+
+  If no updates needed, write: "Master file already up to date."
+
+
+SECTION STRUCTURE — TONE & RULES
+----------------------------------
+  Tone:
+    - Plain, confident, direct — written for a senior leader's inbox
+    - No corporate fluff, no hedging, no internal team jargon
+    - Active voice, past tense for what happened, present for current state
+
+  Length targets:
+    - Whole report: under 1 page when pasted into Outlook
+    - TL;DR: 3 bullets
+    - Each "What Moved" item: 2 sentences max
+    - Each Risk: 3 lines max
+
+  Hard rules:
+    - Never invent a date, owner, or status that isn't in the file
+    - If a field is blank in the master, flag it in the Manual Update List
+    - Never commit me to a deliverable date without flagging it for my review
+    - Mirror the previous week's report tone if one is provided
+
+
+RAG DEFINITIONS — USE CONSISTENTLY
+------------------------------------
+  GREEN  — On track. No intervention needed.
+  AMBER  — At risk. A specific issue is threatening date, scope, or quality.
+           Recoverable with action this week.
+  RED    — Off track. Date, scope, or delivery is materially compromised.
+           Needs leadership awareness and likely a decision.
+
+  Use the RAG already recorded in the master file. Only propose a RAG change
+  in the Manual Update List section, with reasoning — do not silently
+  override what's recorded.
+
+
+AUTO-FLAGS — CHECK EVERY WEEK
+-------------------------------
+  FLAG 1: Any initiative slipping its target date for the 2nd consecutive
+          week → escalate to Risks section
+  FLAG 2: Any RED item without a stated mitigation in the master → flag as
+          Decision Needed
+  FLAG 3: Any initiative with no update in the master for 14+ days → flag
+          as "stale — confirm still active"
+  FLAG 4: Any new initiative added this week → call out in TL;DR
+  FLAG 5: Any owner field blank → add to Manual Update List
+  FLAG 6: Any milestone in the next 7 days that is still RAG Amber or Red →
+          escalate to Decisions Needed
+
+
+DEFINITIONS
+============
+Roadmap initiative: A discrete, named workstream with an owner and a
+                    target date — not a BAU task.
+Milestone:          A dated checkpoint within an initiative (e.g. UAT
+                    start, go-live, vendor sign-off).
+Slip:               Target date moved later than previously recorded.
+BAU:                Reactive ticket and support work — out of scope for
+                    this report.
