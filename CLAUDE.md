@@ -39,6 +39,9 @@ Do NOT ask Kevin for a recap. Navigate to the relevant subfolder.
 ## Working in a Subfolder
 Each project subfolder is self-contained. Navigate there and read its CLAUDE.md before doing anything. Do not mix project context across subfolders.
 
+## Effort Level Governance
+Before any task where higher effort is warranted, signal to Kevin: what the task is, why higher effort is needed, and an explicit request to raise the effort level. Wait — do not proceed until Kevin raises it. Signal when the high-effort phase is done; Kevin decides when to return to normal. Never change effort level unilaterally. See CONSTITUTION.md Section 10 (v2.0, 2026-06-27).
+
 ## Hard Rules
 - Never modify the Roadmap .xlsm — read only
 - Never commit credentials or raw email data
