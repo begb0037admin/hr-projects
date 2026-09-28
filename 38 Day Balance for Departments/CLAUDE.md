@@ -16,8 +16,7 @@ This project coordinates the Chemistry and GLAM work associated with moving depa
 - Chemistry is the pilot.
 - The latest Chemistry list is 137 workgroups.
 - The GLAM priority list is 39 workgroups: 28 Bodleian and 11 Ashmolean.
-- The 1–2 October Work Group update is for Chemistry only.
+- The 1–2 October Work Group update is part of Julie’s proposed Chemistry sequence.
 - The leave-year rollover is scheduled for 5–7 October.
 - Chemistry staff-record updates start from 8 October.
-- GLAM is to be scheduled separately after the Chemistry work and rollover.
-
+- The GLAM priority list is available, and its work is scheduled separately after the Chemistry sequence and rollover.
