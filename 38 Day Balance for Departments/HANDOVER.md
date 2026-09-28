@@ -10,4 +10,4 @@ Kevin’s next action is to review the corrected implementation plan and the uns
 
 ## User-facing deliverable
 
-The meeting-facing deliverable is `C:\Users\admin\OneDrive - Nexus365\Meetings\Meetings\38 Day Balance for Departments - Implementation Track Plan.html`, using Kevin’s branded meeting-style implementation-track format with progress ticks, timeline, workstreams, blockers, evidence steps and open questions. The matching Desktop copy is retained in the Git-backed project folder for version control. The Markdown files remain internal checkpoint records for the Git-backed project process.
+The meeting-facing deliverable is `C:\Users\admin\OneDrive - Nexus365\Meetings\Meetings\38 Day Balance for Departments\38 Day Balance for Departments - Implementation Track Plan.html`, using Kevin’s branded meeting-style implementation-track format with progress ticks, timeline, workstreams, blockers, evidence steps and open questions. The complete project folder is now copied there, including the source spreadsheets and control records. The matching Desktop copy is retained in the Git-backed project folder for version control.
