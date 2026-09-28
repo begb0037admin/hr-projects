@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>38 Day Balance for Departments — Implementation Track Plan</title><style>body{margin:0;background:#f4f5f7;color:#1d2733;font:15px/1.5 -apple-system,Segoe UI,Arial,sans-serif}main{max-width:1000px;margin:auto;padding:28px 22px 60px}h1{margin:0;font-size:24px}h2{margin-top:34px;font-size:19px;border-bottom:2px solid #0b5cab;padding-bottom:5px}h3{margin-top:20px;font-size:15px;color:#0b5cab}.card{background:#fff;border:1px solid #dce3ea;border-radius:8px;padding:15px 17px;margin:14px 0}.scope{background:#e7f0fa;border-left:4px solid #0b5cab;padding:12px 14px}.blocker{background:#fdeceb;border-left:4px solid #c0392b;padding:12px 14px;margin:10px 0}.parked{background:#f7efe0;border-left:4px solid #b5790b;padding:12px 14px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #dce3ea;padding:6px 8px;text-align:left;vertical-align:top}th{background:#e7f0fa}label{display:flex;gap:8px;align-items:flex-start;margin:6px 0;cursor:pointer;padding:3px;border-radius:5px}label:hover{background:#f4f8fb}input[type=checkbox]{margin-top:3px;flex:none;width:17px;height:17px}.code{font-family:Consolas,monospace;background:#eef2f5;padding:1px 5px;border-radius:3px}.badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:10px;margin-right:6px}.b-create{background:#e2f0d9;color:#2e6b1f}.b-update{background:#d9eaf7;color:#0b5cab}.b-delete{background:#e7e6e6;color:#555}.b-cost{background:#e4dfec;color:#5b3a8c}.b-check{background:#e2f0d9;color:#2e6b1f}.b-decision{background:#f7efe0;color:#8a5b00}label.done{opacity:.45;text-decoration:line-through}label.done .badge{text-decoration:none}#bar{position:sticky;top:0;background:#fff;border-bottom:1px solid #dce3ea;padding:10px 22px;display:flex;gap:16px;align-items:center;font-size:13px;z-index:5}#bar strong{font-size:15px}#track{height:8px;background:#e7e6e6;border-radius:4px;flex:1;overflow:hidden}#trackfill{height:100%;background:#0b5cab;width:0%;transition:width .2s}#savemsg{color:#2e6b1f;font-size:12px;white-space:nowrap}button.resetbtn{border:1px solid #dce3ea;background:#fff;border-radius:5px;padding:4px 10px;font-size:12px;cursor:pointer}a{color:#0b5cab}</style></head>
+<body>
+<div id="bar"><strong id="pct">0%</strong><span id="count">0 / 0 done</span><div id="track"><div id="trackfill"></div></div><span id="savemsg"></span><button class="resetbtn" id="resetbtn" type="button">Reset all ticks</button></div>
+<main>
+<h1>38 Day Balance for Departments — Implementation Track Plan</h1>
+<p>Chemistry and GLAM. Ticks save automatically in this browser and reload when you reopen this file. Updated 28 September 2026.</p>
+
+<div class="scope"><strong>Four linked stages.</strong> Chemistry is the pilot. The Work Group update is planned for 1–2 October, the leave-year rollover follows on 5–7 October, Chemistry staff-record updates start from 8 October, and GLAM follows separately using its 39-workgroup priority list.</div>
+
+<h2>Timeline and scope</h2>
+<table><tr><th>Timing</th><th>Work</th><th>Position</th></tr>
+<tr><td>1–2 October</td><td>Chemistry Work Group updates</td><td>Chemistry pilot</td></tr>
+<tr><td>5–7 October</td><td>Leave-year rollover</td><td>Complete before the follow-on checks</td></tr>
+<tr><td>From 8 October</td><td>Chemistry staff-record updates</td><td>Balances, carried-forward leave, adjustments, bank holidays and fixed closure dates</td></tr>
+<tr><td>After Chemistry work</td><td>GLAM updates</td><td>Separate work using 28 Bodleian and 11 Ashmolean priority workgroups</td></tr>
+</table>
+
+<h2>Track A — Chemistry pilot (137 workgroups)</h2>
+<p>Order: Work Group updates → leave-year rollover → staff records → testing and evidence.</p>
+
+<h3>Step 0 — Confirmed scope</h3>
+<div class="card">
+<label style="opacity:.5;text-decoration:line-through"><input type="checkbox" checked disabled><span><span class="badge b-check">Confirmed</span>Chemistry is the pilot and the source list contains 137 unique workgroup codes.</span></label>
+</div>
+
+<h3>Step 1 — Work Group updates</h3>
+<div class="card">
+<label data-id="chem-wg"><input type="checkbox"><span><span class="badge b-update">Update</span>Complete the Chemistry Work Group updates on 1–2 October.</span></label>
+<label data-id="chem-exceptions"><input type="checkbox"><span><span class="badge b-decision">Review</span>Record any exceptions or unclear information for follow-up.</span></label>
+</div>
+
+<h3>Step 2 — Leave-year rollover</h3>
+<div class="card">
+<label data-id="rollover"><input type="checkbox"><span><span class="badge b-update">Update</span>Roll the leave year over on 5–7 October.</span></label>
+<label data-id="rollover-reconcile"><input type="checkbox"><span><span class="badge b-check">Check</span>Reconcile the rollover before closing the Chemistry workstream.</span></label>
+</div>
+
+<h3>Step 3 — Staff records</h3>
+<div class="card">
+<label data-id="chem-staff"><input type="checkbox"><span><span class="badge b-update">Update</span>Update Chemistry staff records from 8 October.</span></label>
+<label data-id="chem-leave"><input type="checkbox"><span><span class="badge b-update">Update</span>Record carried-forward leave, other adjustments, bank holidays and fixed closure dates.</span></label>
+</div>
+
+<h2>Track B — GLAM priority work (39 workgroups)</h2>
+<p>Separate from the Chemistry pilot. The source list contains 28 Bodleian and 11 Ashmolean workgroups.</p>
+
+<div class="blocker"><strong>Do not add GLAM to the 1–2 October Chemistry window.</strong> The GLAM list is available, but its work is to be scheduled separately after the Chemistry sequence and rollover.</div>
+
+<h3>Step 1 — Schedule the GLAM work</h3>
+<div class="card">
+<label data-id="glam-date"><input type="checkbox"><span><span class="badge b-decision">Decision</span>Confirm the GLAM start date and available capacity after the Chemistry work.</span></label>
+<label data-id="glam-contact"><input type="checkbox"><span><span class="badge b-update">Contact</span>Use Julie as the coordination contact, with Marie covering if required and Becky Fitzek as the GLAM contact.</span></label>
+</div>
+
+<h3>Step 2 — Process the priority list</h3>
+<div class="card">
+<label data-id="glam-bodleian"><input type="checkbox"><span><span class="badge b-update">Update</span>Process the 28 Bodleian priority workgroups.</span></label>
+<label data-id="glam-ashmolean"><input type="checkbox"><span><span class="badge b-update">Update</span>Process the 11 Ashmolean priority workgroups.</span></label>
+</div>
+
+<h3>Step 3 — Ashmolean checks</h3>
+<div class="card">
+<label data-id="ashmolean-scheme"><input type="checkbox"><span><span class="badge b-check">Check</span>Confirm the existing holiday scheme for the two highlighted Ashmolean rows in the local source workbook.</span></label>
+<label data-id="ashmolean-rename"><input type="checkbox"><span><span class="badge b-update">Update</span>Rename both Work Groups as requested, even if no scheme change is required.</span></label>
+</div>
+
+<h2>Track C — Evidence and assurance</h2>
+<p>Keep the source lists unchanged and record what was completed, checked and left outstanding.</p>
+<div class="card">
+<label style="opacity:.5;text-decoration:line-through"><input type="checkbox" checked disabled><span><span class="badge b-check">Filed</span>Preserve the Chemistry and GLAM source workbooks in the project folder.</span></label>
+<label data-id="evidence-change"><input type="checkbox"><span><span class="badge b-cost">Evidence</span>Record the Work Group changes and any exceptions.</span></label>
+<label data-id="evidence-rollover"><input type="checkbox"><span><span class="badge b-cost">Evidence</span>File the post-rollover reconciliation.</span></label>
+<label data-id="evidence-chem"><input type="checkbox"><span><span class="badge b-cost">Evidence</span>Record Chemistry staff-record completion and testing.</span></label>
+<label data-id="evidence-glam"><input type="checkbox"><span><span class="badge b-cost">Evidence</span>Record GLAM completion and any unresolved exceptions.</span></label>
+</div>
+
+<h2>Open questions still blocking a step above</h2>
+<table><tr><th>#</th><th>Question</th><th>Blocks</th></tr>
+<tr><td>1</td><td>Who completes the testing and what evidence is required?</td><td>Closure of the Chemistry workstream</td></tr>
+<tr><td>2</td><td>What date and capacity are available for GLAM after Chemistry?</td><td>GLAM scheduling only</td></tr>
+<tr><td>3</td><td>Are there any exceptions in the 137 Chemistry records or the 39 GLAM records?</td><td>Final completion and sign-off</td></tr>
+</table>
+
+<h2>Source files</h2>
+<div class="card">
+<p><a href="source-files/Chemistry%20workgroups%20-%20to%20be%20updated.xlsx">Chemistry workgroups - to be updated.xlsx</a></p>
+<p><a href="source-files/GLAM%20priority%20list%20-%20WorkGroups%20to%20fix%20-%20Sep%202026.xlsx">GLAM priority list - WorkGroups to fix - Sep 2026.xlsx</a></p>
+</div>
+
+</main>
+<script>
+(function(){
+  var KEY = '38-day-balance-departments-track-plan-v1';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { state = {}; }
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('label[data-id] > input[type=checkbox]:not([disabled])'));
+  function applyDone(label, checked){ if (checked) { label.classList.add('done'); } else { label.classList.remove('done'); } }
+  function updateProgress(){
+    var total = boxes.length;
+    var done = boxes.filter(function(b){ return b.checked; }).length;
+    var pct = total ? Math.round(done/total*100) : 0;
+    document.getElementById('pct').textContent = pct + '%';
+    document.getElementById('count').textContent = done + ' / ' + total + ' done';
+    document.getElementById('trackfill').style.width = pct + '%';
+  }
+  function save(){
+    try {
+      localStorage.setItem(KEY, JSON.stringify(state));
+      var m = document.getElementById('savemsg');
+      m.textContent = 'Saved ' + new Date().toLocaleTimeString();
+      clearTimeout(save._t);
+      save._t = setTimeout(function(){ m.textContent = ''; }, 2500);
+    } catch(e) { document.getElementById('savemsg').textContent = 'Could not save (browser storage blocked)'; }
+  }
+  boxes.forEach(function(box){
+    var label = box.closest('label');
+    var id = label.getAttribute('data-id');
+    if (state[id]) { box.checked = true; }
+    applyDone(label, box.checked);
+    box.addEventListener('change', function(){ state[id] = box.checked; applyDone(label, box.checked); updateProgress(); save(); });
+  });
+  document.getElementById('resetbtn').addEventListener('click', function(){
+    if (!confirm('Reset all ticks on this plan? This cannot be undone.')) return;
+    boxes.forEach(function(box){ box.checked = false; applyDone(box.closest('label'), false); delete state[box.closest('label').getAttribute('data-id')]; });
+    updateProgress(); save();
+  });
+  updateProgress();
+})();
+</script>
+</body></html>
