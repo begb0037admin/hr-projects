@@ -6,7 +6,7 @@ The project folder is now established inside the Git-backed `hr-projects` worksp
 
 ## Exact next action
 
-When Kevin supplies the remaining files, place them in `source-files/`, update `SOURCE_REGISTER.md`, and reconcile each file against `PROJECT_PLAN.md`. Do not send the Julie reply until Kevin has reviewed the final wording.
+Kevin’s next action is to review the corrected implementation plan and the unsent Julie reply. The operational position to carry forward is Chemistry on 1–2 October, rollover on 5–7 October, Chemistry staff-record updates from 8 October, and GLAM separately afterwards. Do not send the Julie reply until Kevin has reviewed the final wording.
 
 ## User-facing deliverable
 
