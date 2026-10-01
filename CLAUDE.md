@@ -27,6 +27,7 @@ Do NOT ask Kevin for a recap. Navigate to the relevant subfolder.
 | `College Staff in PXD/` | College staff migration to PeopleXD |
 | `DPIA PXD/` | Data Protection Impact Assessment for PeopleXD |
 | `ORCID in PXD/` | ORCID integration project |
+| `GLAM Chemistry Workgroup Updates/` | Reusable runbook: PeopleXD Work Group PHFC7 + rename procedure. Triggered on request, not scheduled. First run (137 Chemistry + 39 GLAM) complete 2026-10-01. |
 
 ## HR Systems Roadmap — Critical Rules
 - **Source of truth:** `HR Systems Roadmap/HR Systems Roadmap MASTER.xlsm`
